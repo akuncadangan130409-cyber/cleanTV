@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Custom Launcher Config for Polytron 2K AI Smart TV -->
+<resources>
+    <!-- Apple TV 4K style: black background, dock at bottom -->
+    <bool name="black_background">true</bool>
+    <bool name="ambient_glow">true</bool>
+
+    <!-- Dock apps: YouTube, Netflix, Spotify, Live TV, Google Play Store -->
+    <string-array name="dock_apps">
+        <item>com.google.android.youtube.tv</item>
+        <item>com.netflix.ninja</item>
+        <item>com.spotify.tv.android</item>
+        <item>com.mediatek.wwtv.tvcenter</item>
+        <item>com.android.vending</item>
+    </string-array>
+
+    <!-- Fill dock - if any dock apps are not installed, fill with grid apps -->
+    <bool name="fill_dock">true</bool>
+
+    <!-- 4 columns per row -->
+    <integer name="columns">4</integer>
+
+    <!-- Live TV package -->
+    <string name="live_tv_package" translatable="false">com.mediatek.wwtv.tvcenter</string>
+
+    <!-- Boot to Home, not Live TV -->
+    <bool name="boot_to_live_tv">false</bool>
+    <bool name="open_on_start_choice">false</bool>
+
+    <!-- Hide Live TV from grid (it's in dock) -->
+    <string-array name="hidden_apps">
+        <item>com.mediatek.wwtv.tvcenter</item>
+    </string-array>
+
+    <!-- Home appears when Idle (clock screensaver) -->
+    <integer name="home_idle_clock_minutes">15</integer>
+    <bool name="clock_wallpaper">false</bool>
+    <bool name="clock_glow">true</bool>
+
+    <!-- Input sources -->
+    <bool name="input_pill">true</bool>
+    <bool name="wifi_pill">true</bool>
+    <bool name="settings_pill">true</string>
+
+    <!-- Settings fallback (use TV Settings) -->
+    <string-array name="settings_fallback_components" translatable="false">
+        <item>com.android.tv.settings/com.android.tv.settings.ui.main.MainActivity</item>
+    </string-array>
+
+    <!-- Glass-style focus highlight -->
+    <string name="glass_style" translatable="false">glass</string>
+
+    <!-- Volume key repeat behavior -->
+    <bool name="volume_key_repeat_on">true</bool>
+    <integer name="volume_key_repeat_delay">1000</integer>
+    <integer name="volume_key_repeat_interval">150</integer>
+
+    <!-- Disable cinematic effects for performance -->
+    <bool name="fade_rows">false</bool>
+    <bool name="app_glow">false</bool>
+    <bool name="cinematic_dots">false</bool>
+    <bool name="ambient_glow">true</bool>
+    <bool name="glow_snap">true</bool>
+
+    <!-- Theme colors -->
+    <integer name="cinematic_scrim">100</integer>
+    <integer name="cinematic_art">0</integer>
+
+    <!-- Font */
+    <string name="font_family" translatable="false">sans-serif</string>
+</resources>
