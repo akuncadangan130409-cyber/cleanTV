@@ -1,0 +1,23 @@
+# Polytron 2K AI Smart TV - Custom Debloat
+# Based on user preferences
+
+# Ads and promo content
+com.google.android.tvrecommendations
+fusion.android.tv.demo
+
+# Telemetry
+com.google.android.feedback
+com.google.android.partnersetup
+
+# Unused services
+com.mstar.android.tv.disclaimercustomization
+com.android.printspooler
+com.android.providers.calendar
+com.google.android.syncadapters.calendar
+
+# User disabled
+com.google.android.katniss           # Voice Assistant
+com.google.android.backdrop          # Screensaver
+com.google.android.youtube.tvmusic   # YouTube Music replaced by Spotify
+com.google.android.play.games        # Play Games
+com.amazon.amazonvideo.livingroom    # Amazon Prime Video
